@@ -1,6 +1,3 @@
-# Usage
-### Copy paste below code and update the config
-```
 module "helm-app" {
   source      = "./appmodule"
   name        = "terraform-helm-app"
@@ -16,11 +13,3 @@ image:
 
   EOF
 }
-
-```
-
-### Run the following command
-```
-terraform init
-terraform apply
-```
